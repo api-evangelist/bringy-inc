@@ -1,7 +1,18 @@
 aid: bringy-inc
 name: Bringy, Inc.
-description: Bringy, Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bringy, Inc. is a digital insurance brokerage operating in Egypt, founded in
+  2019 and licensed by the Egyptian Financial Regulatory Authority (FRA License
+  #100). Through its website and iOS/Android mobile apps, Bringy lets consumers
+  compare, select, purchase, and manage insurance policies online, positioning
+  itself as a digital insurance advisor that guides customers from policy
+  selection through claims and compensation. Coverage lines include car,
+  business, medical, personal-accident, and home insurance, with payment via
+  Visa, Mastercard, Meeza, mobile wallets, and installment providers (ValU,
+  Sympl, Souhoola). Bringy was surfaced as a portfolio company of 500 Global and
+  added to the API Evangelist network. It publishes a consumer marketing site
+  and blog but no public developer API, SDKs, or developer documentation at this
+  time.
 url: https://raw.githubusercontent.com/api-evangelist/bringy-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bringy.com/images/bringy-app-logo-b6ace5dccf93393959db92fb24bf6df1.png?vsn=d
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Financial Services
+- Insurance Brokerage
+- Fintech
+- Egypt
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bringy-inc-domain-security.yml
 - type: Website
   url: https://bringy.com
+- type: Blog
+  url: https://bringy.com/blog
+- type: Support
+  url: https://api.whatsapp.com/send?phone=201066636111
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
