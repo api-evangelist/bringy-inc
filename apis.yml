@@ -32,7 +32,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://bringy.com/images/bringy-app-logo-b6ace5dccf93393959db92fb24bf6df1.png?vsn=d
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
